@@ -9,7 +9,7 @@ import java.io.Serializable;
 @Getter
 public final class PersonDTO implements Serializable
 {
-    private final long id;
+    private final String id;
     private final String name;
     private final String age;
 }
